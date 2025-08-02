@@ -10,7 +10,7 @@ export function DoctorCard({ name, specialization, location }: Props) {
   const navigate = useNavigate();
 
   return (
-    <div className="bg-white p-4 shadow-md rounded-md">
+    <div className="bg-white p-4 shadow-md rounded-md m-5">
       <h2 className="text-xl font-semibold">{name}</h2>
       <p className="text-gray-600">{specialization}</p>
       <p className="text-gray-500">{location}</p>
